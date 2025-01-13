@@ -8,11 +8,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mssql',
-      host: 'sqlserver.delteaching.tech',
+      host: '**',
       port: 1433,
       username: 'delteaching',
-      password: 'lDhmmCMQJv2x7fKl$',
-      database: 'DelTeaching',
+      password: '**',
+      database: '**',
       entities: [__dirname + '/../**/*.entity.{js,ts}'],
       synchronize: true, // Não use em produção
       options: {
